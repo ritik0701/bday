@@ -1380,8 +1380,8 @@ a {
   text-align: center;
 }
 .cid-tKhzZIg0x4 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #ffffff;
 }
 .cid-tKhzZIg0x4 .mbr-fallback-image.disabled {
@@ -1511,6 +1511,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .cid-tKhGLwc0H3 .embla__button {
+    display: none;
+  }
 }
 .cid-tKhGLwc0H3 .embla__button:disabled {
   cursor: default;
